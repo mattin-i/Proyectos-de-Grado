@@ -1,0 +1,142 @@
+<resources>
+    //Main Activity
+    <string name="app_name" translatable="false">Pizzas Cebanc</string>
+    <string name="domicilio">A DOMICILIO</string>
+    <string name="recoger">PARA RECOGER</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email" translatable="false">E-mail</string>
+    <string name="direccion">Dirección</string>
+    <string name="image" translatable="false">logo</string>
+    <string name="botonPedido">Realizar pedido</string>
+    <string name="bCliente">Buscar Cliente</string>
+
+    <string name="nameDB">DBPIZZAS</string>
+    <string name="setError">El campo no puede estar vacío</string>
+    <string name="notFound">Ese nombre no está en el registro</string>
+    <string name="error">ERROR</string>
+
+    <string name="qTitle">Nombre en uso</string>
+    <string name="qRegis">El nombre que has puesto ya existe con otro registro. Cual quieres usar este o el ya existente?</string>
+    <string name="qExis">Usar existente</string>
+    <string name="qNuevo">Usar nuevo</string>
+
+    <string name="emailValidator">^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$</string>
+
+    //Info Activity
+    <string name="tlfCebanc" translatable="false">943 31 69 00</string>
+    <string name="dirCebanc" translatable="false">Berio Pasealekua, 50, 20018 Donostia, Gipuzkoa</string>
+    <string name="emailCebanc" translatable="false">cebanc@cebanc.com</string>
+    <string name="accesDeclined">Has rechazado el acceso!</string>
+
+    <string name="geoCoord">geo:43.30486,-2.016868</string>
+    <string name="mailType">message/rfc822</string>
+    <string name="correo">cebanc@cebanc.com</string>
+    <string name="packageMail">com.google.android.gm</string>
+    <string name="emailAlert">Gmail app not installed</string>
+    <string name="tel">tel: </string>
+    <string name="telAlert">You declined the access</string>
+
+    //Warning mensajes
+    <string name="fEmpty">El campo no puede estar vacío</string>
+    <string name="emailValido">Introduce email válido</string>
+    <string name="numeroValido">El número tiene que tener 9 cifras</string>
+
+    //Cesta
+    <string name="botonComprar">CONFIRMAR</string>
+    <string name="textCesta">Cesta:</string>
+    <string name="quitar">Quitar</string>
+
+    // RecyclerView
+    <string name="botonAñadir">AÑADIR</string>
+    <string name="tipoMasa">Tipo Masa:</string>
+    <string name="tamañoPizza">Tamaño:</string>
+    <string name="precios" translatable="false">Individual 5€ Mediana 10€ Familiar 15€</string>
+
+    //Spinner
+    <string-array name="masas">
+        <item>Masa Fina</item>
+        <item>Masa Gorda</item>
+    </string-array>
+    <string-array name="tamaños">
+        <item>Individual</item>
+        <item>Mediana</item>
+        <item>Familiar</item>
+    </string-array>
+    <string-array name="cantidad">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    //SecondActivity
+    <string name="precioTotal">Precio Total: €</string>
+
+    <string name="tabPizzas">PIZZAS</string>
+    <string name="tabBebidas">BEBIDAS</string>
+
+    <string name="pizzaAdd">Añadida pizza: </string>
+    <string name="bebidaAdd">Añadida bebida: </string>
+
+    <string name="q2Title">CONFIRMAR PEDIDO</string>
+    <string name="q2Quest">Quieres confirmar el pedido?</string>
+    <string name="q2Confirmar">Confirmar</string>
+    <string name="q2Seguir">Seguir comprando</string>
+
+    <string name="noItems">No has seleccionado ningún item.</string>
+
+    // Info pizzas y bebidas
+    <string name="pBarbacoa">Barbacoa</string>
+    <string name="pCarbonara">Carbonara</string>
+    <string name="pQuesos">4 Quesos</string>
+    <string name="pVegetal">Vegetal</string>
+    <string name="pTropical">Tropical</string>
+    <string name="pAgua">Agua</string>
+    <string name="pCola">Coca Cola</string>
+    <string name="pNaranja">Fanta Naranja</string>
+    <string name="pLimon">Fanta Limón</string>
+    <string name="pNestea">Nestea</string>
+    <string name="pRedbull">RedBull</string>
+    <string name="pCerveza">Cerveza</string>
+
+    // ThirdActivity
+    <string name="btnComprar">COMPRAR</string>
+
+    <string name="share">Share With:</string>
+
+    <string name="dateFormat">"dd-MM-yyyy"</string>
+
+    <string name="q3Title">CONFIRMAR COMPRA</string>
+    <string name="q3Quest">Quieres comprar el pedido?</string>
+    <string name="q3Comprar">COMPRAR</string>
+    <string name="q3Anular">ANULAR</string>
+
+    <string name="botonVerPedidos">VER PEDIDOS</string>
+
+    // PedidosActivity
+    <string name="textPedidos">PEDIDOS:</string>
+
+    // DatabaseActivity
+    <string name="selectDB">BUSCAR REGISTRO</string>
+    <string name="updateDB">ACTUALIZAR REGISTRO</string>
+    <string name="deleteDB">BORRAR REGISTRO</string>
+    <string name="insertDB">NUEVO REGISTRO</string>
+    <string name="selectAllDB">BUSCAR TODO</string>
+
+    <string name="titleDialog1">ELIJE TABLA:</string>
+    <string name="titleDialog2">ELIJE CÓDIGO DE LA TABLA:</string>
+
+    <string name="tablaCli">CLIENTES</string>
+    <string name="tablaPed">PEDIDOS</string>
+    <string name="tablaPiz">PIZZAS</string>
+    <string name="tablaBeb">BEBIDAS</string>
+
+    <string name="linea">************************************************</string>
+</resources>
+
